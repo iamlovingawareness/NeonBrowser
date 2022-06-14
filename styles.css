@@ -454,6 +454,60 @@ button {
   line-height: 48px;
 }
 
+/* CTA */
+.cta {
+  height: 515px;
+  background: linear-gradient(to bottom, var(--white) 50%, #2a2a31 50%);
+  margin-top: 82px;
+  position: relative;
+}
+
+.cta img {
+  display: block;
+  width: 568px;
+  height: 490px;
+  position: absolute;
+  bottom: 2px;
+  right: 165px;
+}
+
+.cta div {
+  /* Create Free Account & Get Register */
+
+  width: 453px;
+  height: 116px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  /* or 145% */
+  color: var(--white);
+  position: absolute;
+  top: 300px;
+  left: 20px;
+}
+
+.cta button {
+  /* Group 5944 */
+
+  width: 163px;
+  height: 64px;
+
+  box-shadow: 5px 10px 30px rgba(255, 165, 2, 0.15);
+  border-radius: 15px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  position: absolute;
+  top: 329px;
+  left: 460px;
+}
 /* Footer */
 
 footer#site-footer {
